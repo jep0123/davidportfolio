@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About · Jefferson David</title>
+    <meta name="description" content="Jefferson David — Student | Aspiring Developer. A 3rd year BSIT student aspiring to be a developer with an interest in web, software, and game development. I enjoy developing practical solutions, learning new technologies, and continuously improving my technical skills.">
+
+    <!-- Apply saved / system theme BEFORE paint to avoid a flash -->
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem('theme');
+                var system = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', saved || system);
+            } catch (e) {}
+        })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body data-page="about">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Jefferson David — home">
+            <img class="brand-logo" src="logoo.png" alt="" aria-hidden="true">
+            <span class="brand-name">Jefferson David</span>
+        </a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <ul>
+                                    <li>
+                        <a href="index.html"
+                           class=""
+                           >Home</a>
+                    </li>
+                                    <li>
+                        <a href="about.html"
+                           class="is-active"
+                           aria-current="page">About</a>
+                    </li>
+                                    <li>
+                        <a href="projects.html"
+                           class=""
+                           >Projects</a>
+                    </li>
+                            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Toggle theme">
+                <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+                </svg>
+            </button>
+            <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+                <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+    <div class="container reveal">
+        <p class="eyebrow">About</p>
+        <h1>The person behind the <span class="accent-text">code</span>.</h1>
+    </div>
+</section>
+
+<section class="section about-intro-section">
+    <div class="container about-grid">
+        <div class="about-copy reveal">
+            <p class="lead">
+                I'm Jefferson David, a BSIT student based in Philippines.
+                with an interest in web development, game development, software development, and programming.
+                I'm passionate about exploring how technology works and using what I learn to build useful and meaningful projects.
+            </p>
+            <p>
+                Throughout my journey as an IT student, I've gained experience working with different programming languages and technologies, 
+                including HTML, CSS, JavaScript, PHP, MySQL, Java, C#, and Python.
+            </p>
+            <p>
+                I enjoy learning through hands-on experience, experimenting with new ideas, and challenging myself to solve problems through programming. 
+                I'm still growing as a developer, and I'm always looking for opportunities to improve my skills and expand my knowledge.
+            </p>
+            <p>
+                My goal is to continue developing my technical abilities and create projects that combine functionality, creativity, and practical solutions.
+            </p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="projects.html">See my projects</a>
+                <a class="btn btn-ghost" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jeffersondavid1102%40gmail.com">Contact me</a>
+            </div>
+        </div>
+
+        <aside class="info-card reveal">
+            <h2>Quick facts</h2>
+            <dl>
+                <dt>Current Status</dt><dd>Student | Aspiring Developer</dd>
+                <dt>Based In</dt><dd>Philippines</dd>
+                <dt>Email</dt><dd><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jeffersondavid1102%40gmail.com">jeffersondavid1102@gmail.com</a></dd>
+                <dt>GitHub</dt><dd><a href="https://github.com/jep0123" target="_blank" rel="noopener">View profile</a></dd>
+            </dl>
+        </aside>
+    </div>
+</section>
+
+<section class="section about-followup-section">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Toolbox</p>
+            <h2>Skills &amp; tools</h2>
+        </div>
+        <div class="skills-grid">
+                            <div class="skill-group reveal">
+                    <h3>Frontend</h3>
+                    <ul class="tags">
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>JavaScript</li>
+                                            </ul>
+                </div>
+                            <div class="skill-group reveal">
+                    <h3>Backend</h3>
+                    <ul class="tags">
+                                                    <li>PHP</li>
+                                                    <li>MySQL</li>
+                                                    <li>Python</li>
+                                                    <li>REST APIs</li>
+                                            </ul>
+                </div>
+                            <div class="skill-group reveal">
+                    <h3>Programming</h3>
+                    <ul class="tags">
+                                                    <li>Java</li>
+                                                    <li>Python</li>
+                                                    <li>C#</li>
+                                            </ul>
+                </div>
+                            <div class="skill-group reveal">
+                    <h3>Tools</h3>
+                    <ul class="tags">
+                                                    <li>Git &amp; GitHub</li>
+                                                    <li>VS Code</li>
+                                                    <li>Figma</li>
+                                                    <li>MySQL</li>
+                                                    <li>SSMS</li>
+                                                    <li>Visual Studio</li>
+                                                    <li>pycharm</li>
+                                                    <li>Unity</li>
+                                                    <li>NetBeans</li>
+                                                    <li>XAMPP</li>
+                                            </ul>
+                </div>
+                    </div>
+    </div>
+</section>
+
+<section class="section about-followup-section">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">Education</p>
+        </div>
+        <ol class="timeline education-timeline">
+            <div class="education-heading">
+                <h3>Pamantasan ng Lungsod ng Valenzuela</h3>
+                <span class="year">2024 - 2026</span>
+            </div>
+            <li class="reveal">
+                <h3 class="education-degree">Bachelor of Science in Information Technology</h3>
+            </li>
+            <li class="reveal">
+                <p>Currently in my third year, focusing on web development, game development, and programming.</p>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<section class="section about-followup-section">
+    <div class="container">
+        <div class="section-head reveal">
+            <p class="eyebrow">My Progress</p>
+        </div>
+        <ol class="timeline">
+                            <li class="reveal">
+                    <span class="year">2025</span>
+                    <div>
+                        <h3>First project</h3>
+                        <p>Built a small resort management system.</p>
+                    </div>
+                </li>
+                            <li class="reveal">
+                    <span class="year">2024</span>
+                    <div>
+                        <h3>Started learning to code</h3>
+                        <p>Began with HTML and CSS, then moved to Python and PHP.</p>
+                    </div>
+                </li>
+                    </ol>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>&copy; 2026 Jefferson David. Built with PHP, CSS &amp; JavaScript.</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://github.com/jep0123" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
