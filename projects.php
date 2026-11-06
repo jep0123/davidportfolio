@@ -12,7 +12,7 @@ $counts['all'] = count($projects);
     <div class="container reveal">
         <p class="eyebrow">Projects</p>
         <h1>Things I've <span class="accent-text">built</span>.</h1>
-        <p class="lead">Filter by type. Everything updates instantly, with no page reload.</p>
+        <p class="lead">Explore some of the projects I've worked on, showcasing my skills in web development and programming.</p>
     </div>
 </section>
 
