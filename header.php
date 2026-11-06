@@ -17,6 +17,7 @@ $nav = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= e($pageTitle) ?> · <?= e($site['name']) ?></title>
+    <link rel="icon" type="image/png" href="logoo.png">
     <meta name="description" content="<?= e($site['name']) ?> — <?= e($site['role']) ?>. <?= e($site['tagline']) ?>">
 
     <!-- Apply saved / system theme BEFORE paint to avoid a flash -->
