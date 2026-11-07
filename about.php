@@ -42,6 +42,7 @@ include __DIR__ . '/header.php';
                 <dt>Current Status</dt><dd><?= e($site['role']) ?></dd>
                 <dt>Based In</dt><dd><?= e($site['location']) ?></dd>
                 <dt>Email</dt><dd><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=<?= rawurlencode($site['email']) ?>"><?= e($site['email']) ?></a></dd>
+                <dt>Facebook</dt><dd><a href="<?= e($site['facebook']) ?>" target="_blank" rel="noopener">View profile</a></dd>
                 <dt>GitHub</dt><dd><a href="<?= e($site['github']) ?>" target="_blank" rel="noopener">View profile</a></dd>
             </dl>
         </aside>

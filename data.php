@@ -11,6 +11,7 @@ $site = [
     'location' => 'Philippines',
     'email'    => 'jeffersondavid1102@gmail.com',
     'github'   => 'https://github.com/jep0123',
+    'facebook' => 'https://web.facebook.com/jff.dvd.02',
     'linkedin' => 'https://linkedin.com/in/yourusername',
     'year'     => date('Y'),
 ];
